@@ -1,6 +1,5 @@
-desc "Tarea de prueba para saludarte"
-task :default => [:Hi]
+task :default => [:run]
 
-task:Hi do
-puts "¡Hola! Rake esta funcionando correctamente."
+task:run do
+ ruby "lib/Hola.rb"
 end
